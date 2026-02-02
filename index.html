@@ -1,21 +1,119 @@
 <!DOCTYPE html>
-<html lang="en">
+
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website</title>
+    <title>Sample Page</title>
 </head>
 <body>
-    <header>
-        <h1>Welcome</h1>
-    </header>
-    <main>
-        <section>
-            <p>This is a simple HTML structure.</p>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2024 My Website</p>
-    </footer>
+
+    <!-- !heading -->
+    <h1>tes</h1>
+    <h2>tes</h2> 
+    <h3>tes</h3>
+    <h4>tes</h4>
+    <br> <!-- Adding a line break -->
+
+    <!-- !paragraph -->
+    <p>This is a simple HTML document.</p>
+
+    <!-- !link -->
+    <a href="https://www.google.com" target="_blank" title="this will take you to google">
+        google
+    </a>
+    <br> 
+    <br>
+    <a href="page2.html" target="_blank" title="this will take you to page 2">
+        page 2
+    </a>
+
+    <!-- !images -->
+    <a href="https://myheroacademia.fandom.com/wiki/Katsuki_Bakugo" target="_blank" title="this will take you to bakugo's my hero academia wiki page">
+    <img src="pic.jpg" alt="deku pic" width="500" height="600" title="this is kacchan">
+    </a>
+
+    <!-- !audio -->
+    <audio controls  muted loop src="assets/musicc.mp3">
+        <source src="assets/musicc.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <!-- !video -->
+    <video controls muted loop>
+        <source src="/assets/akitoVideo.mp4" >
+        <source src="/assets/akitoVideo.webM">
+        Your browser does not support the video element.
+    </video>
+
+    <!-- !text formatting -->
+    <p>This is normal text</p>
+    <p>This is <b>bold</b> text</p>
+    <p>This is <i>italic</i> text</p>
+    <p>This is <u>underlined</u> text </p>
+    <p>This is <del>deleted</del> text </p>
+    <p>This is <small>small</small> text </p>
+    <p>This is <big>big</big> text </p>
+    <p>This is <sub>subscript</sub> text </p>
+    <p>This is <sup>superscript</sup> text </p>
+    
+    <!-- !List -->
+    <h3>Unordered List</h3>
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3
+            <ul>
+                <li>Subitem 1</li>
+                <li>Subitem 2</li>
+            </ul>
+        </li>
+    </ul>
+    <br>
+
+    <h3>Ordered List</h3>
+    <ol type="I">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <ol>
+            <li>Subitem 1</li>
+            <li>Subitem 2</li>
+        </ol>
+        <li>Item 3
+            <ul>
+                <li>Subitem 1</li>
+                <li>Subitem 2</li>
+            </ul>
+        </li>
+    </ol>
+    
+    <h3>Description List</h3>
+    <dl>
+        <dt>Term 1</dt>
+        <dd>Description for Term 1</dd>
+        <br>
+        <dt>Term 2</dt>
+        <dd>Description for Term 2
+            <ol>
+                <li>Subitem 1</li>
+                <li>Subitem 2</li>
+            </ol>
+        </dd>
+    </dl>
+
+    <!-- !Table -->
+    <table bgcolor="black">
+        <tr bgcolor="lightblue" >
+            <th width="200"> Header 1 </th>
+            <th width="200"> Header 2 </th>
+            <th width="200"> Header 3 haha </th>
+        </tr>
+        <tr bgcolor="lightgrey" align="center">
+            <td>Data 1</td>
+            <td>Data 2</td>
+            <td>Data 3</td>
+        </tr>
+    </table>
+
 </body>
 </html>
+
+
