@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
 <head>
-    <title>Sample Page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 </head>
 <body>
 
@@ -27,8 +28,9 @@
     </a>
 
     <!-- !images -->
-    <a href="https://myheroacademia.fandom.com/wiki/Katsuki_Bakugo" target="_blank" title="this will take you to bakugo's my hero academia wiki page">
-    <img src="pic.jpg" alt="deku pic" width="500" height="600" title="this is kacchan">
+    <a href="https://myheroacademia.fandom.com/wiki/Katsuki_Bakugo" 
+    target="_blank" title="this will take you to bakugo's my hero academia wiki page">
+    <img src="assets/pic.jpg" alt="deku pic" width="500" height="600" title="this is kacchan">
     </a>
 
     <!-- !audio -->
@@ -113,6 +115,120 @@
         </tr>
     </table>
 
+    <!-- !Color -->
+    <div style="background-color: red; width: 1000px; height: 1000px;">
+        <h6 style="color: rgb(0, 98, 255,0.5); font-size:70px;" >HIIIII</h6>
+        <p style="background-color: aqua; color: rgb(0, 98, 255);">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi 
+            eos corrupti quia rerum laboriosam quidem at a, ducimus amet labore nihil, 
+            mollitia, recusandae accusamus aspernatur obcaecati quis vitae ut qui!</p>
+    </div>
+
+    <!-- !Span&Div -->
+     <div>
+        <p>
+        <span style="color: blue;">orem ipsum dolor sit 
+        amet consectetur adipisicing elit.
+        At iste saepe earum necessitatibus </span> 
+        quis magni sint incidunt cum nihil.
+        Praesentium ratione natus adipisci sit 
+        dolorum sequi. Cupiditate, harum. Totam, veritatis!
+        </p>
+     </div>
+
+     <!-- !iframe -->
+    <iframe src="page2.html" frameborder="0" width="200" height="400"></iframe>
+    <iframe src="https://www.bing.com" frameborder="0"></iframe>
+
+    <!-- !Button&Script -->
+    <br>
+    <button style="color: brown; background-color: lightblue; border-radius:0.6vh; border: 0.3vh solid black;" onclick="changeWord()" id="0">HI</button>
+    <script>
+        function changeWord() {
+            document.getElementById("0");
+            if (document.getElementById("0").innerHTML === "HI") {
+                document.getElementById("0").innerHTML = "BYE";
+            } else {
+                document.getElementById("0").innerHTML = "HI";
+            }       
+        }
+    </script>
+
+    <!-- !Form -->
+    <form>
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+        </div>
+
+        <br>
+        <div>
+            <label for="number">Number:</label>
+            <input type="number" id="number" name="number">
+        </div>
+
+        <br>
+
+        <div>
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date">
+        </div>
+
+        <br>
+
+        <div>
+            <label for="checkbox">Agree:</label>
+            <input type="checkbox" id="checkbox" name="checkbox">
+        </div>
+
+        <br>
+        
+        <div>
+            <label for="option">Options:</label>
+
+            <label for="radio">Option 1</label>
+            <input type="radio" id="radio" name="option" value="1">
+
+            <label for="radio2">Option 2</label>
+            <input type="radio" id="radio2" name="option" value="2">
+
+        </div>
+
+        <br>
+
+        <div>
+            <label for="textarea">Message:</label>
+            <textarea id="textarea" name="message" style="width: 300px; height: 150px; resize: none;"></textarea>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="select">Choose:</label>
+            <select id="select" name="select">
+                <option>Option A</option>
+                <option>Option B</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Submit">
+        </div>
+    </form>
 </body>
 </html>
 
