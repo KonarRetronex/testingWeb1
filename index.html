@@ -3,9 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/fire.png" title="fire icons" type="image/png">
     <title>Document</title>
 </head>
 <body>
+    <header>
+        <h6>THIS IS HEADER</h6>
+    </header>
+
 
     <!-- !heading -->
     <h1>tes</h1>
@@ -70,6 +75,7 @@
         </li>
     </ul>
     <br>
+
 
     <h3>Ordered List</h3>
     <ol type="I">
@@ -154,81 +160,97 @@
         }
     </script>
 
-    <!-- !Form -->
-    <form>
-        <div>
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-        </div>
+        <!-- !Form -->
+        <form>
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Your full name" required>
+            </div>
 
-        <br>
+            <br>
 
-        <div>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-        </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="you@example.com" required>
+            </div>
 
-        <br>
+            <br>
 
-        <div>
-            <label for="password">Password:</label>
-            <input type="password" id="password" name="password" required>
-        </div>
+            <div>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" placeholder="Enter a strong password" required>
+            </div>
 
-        <br>
-        <div>
-            <label for="number">Number:</label>
-            <input type="number" id="number" name="number">
-        </div>
+            <br>
+            <div>
+                <label for="number">Number:</label>
+                <input type="number" id="number" name="number" placeholder="e.g. 12345">
+            </div>
 
-        <br>
+            <br>
 
-        <div>
-            <label for="date">Date:</label>
-            <input type="date" id="date" name="date">
-        </div>
+            <div>
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="date" placeholder="YYYY-MM-DD">
+            </div>
 
-        <br>
+            <br>
 
-        <div>
-            <label for="checkbox">Agree:</label>
-            <input type="checkbox" id="checkbox" name="checkbox">
-        </div>
+            <div>
+                <label for="checkbox">Agree:</label>
+                <input type="checkbox" id="checkbox" name="checkbox">
+            </div>
 
-        <br>
-        
-        <div>
-            <label for="option">Options:</label>
+            <br>
+            
+            <div>
+                <label for="option">Options:</label>
 
-            <label for="radio">Option 1</label>
-            <input type="radio" id="radio" name="option" value="1">
+                <label for="radio">Option 1</label>
+                <input type="radio" id="radio" name="option" value="1">
 
-            <label for="radio2">Option 2</label>
-            <input type="radio" id="radio2" name="option" value="2">
+                <label for="radio2">Option 2</label>
+                <input type="radio" id="radio2" name="option" value="2">
 
-        </div>
+            </div>
 
-        <br>
+            <br>
 
-        <div>
-            <label for="textarea">Message:</label>
-            <textarea id="textarea" name="message" style="width: 300px; height: 150px; resize: none;"></textarea>
-        </div>
+            <div>
+                <label for="textarea">Message:</label>
+                <textarea id="textarea" name="message" placeholder="Write your message here..." style="width: 300px; height: 150px; resize: none;"></textarea>
+            </div>
 
-        <br>
+            <br>
 
-        <div>
-            <label for="select">Choose:</label>
-            <select id="select" name="select">
-                <option>Option A</option>
-                <option>Option B</option>
-            </select>
-        </div>
-        <br>
-        <div>
-            <input type="submit" value="Submit">
-        </div>
+            <div>
+                <label for="select">Choose:</label>
+                <select id="select" name="select">
+                    <option value="" disabled selected>Choose an option</option>
+                    <option>Option A</option>
+                    <option>Option B</option>
+                </select>
+            </div>
+
+            <br>
+
+            <div style="display: flex; gap: 10px;">
+                <div>
+                    <input type="reset" value="Reset">
+                </div>
+                <div>
+                    <input type="submit" value="Submit">
+                </div>
+            </div>
+
     </form>
+
+    <footer>
+        <h6>THIS IS FOOTER</h6>
+        &copy; 2024 Konar. All rights reserved.
+    </footer>
+
+
 </body>
 </html>
 

@@ -1,0 +1,38 @@
+body{
+    background-color: lightgrey;
+}
+
+h1 {
+    color: blue;
+    text-align: center;
+}
+
+/* id(#) will override class(.) */
+
+#p1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    color: #333333;
+    line-height: 1.5;
+    margin: 15px 0;
+}
+
+.p {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #a00a0ac8;
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+#p2{
+    color: green;
+    background-color: lightyellow;
+    font-family: 'Playwrite NZ Basic Guides', 'times new roman';
+    font-size: 1em;
+    font-weight: bold;
+    border: 2px solid rgb(255, 0, 0);
+    border-radius: 20px;
+    
+}
+
