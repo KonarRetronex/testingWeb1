@@ -31,8 +31,32 @@ h1 {
     font-family: 'Playwrite NZ Basic Guides', 'times new roman';
     font-size: 1em;
     font-weight: bold;
-    border: 2px solid rgb(255, 0, 0);
+    border: 2px dotted rgb(255, 0, 0);
     border-radius: 20px;
     
+}
+
+#p3{
+    color: purple;
+    background-color: lightblue;
+    font-family: 'Press Start 2P', 'arial';
+    font-size: 1em;
+    font-weight: bold;
+    border: 2px dashed rgb(0, 0, 255);
+    border-radius: 15px;
+    padding: 10px;
+    margin: 20px 0;
+}
+
+#p4{
+    color: brown;
+    background-color: lightgreen;
+    font-family: 'Bitcount Single', 'arial';
+    font-size: 1em;
+    font-weight: bold;
+    border: 2px solid rgb(0, 128, 0);
+    border-radius: 10px;
+    padding: 8px;
+    margin: 15px 0;
 }
 
