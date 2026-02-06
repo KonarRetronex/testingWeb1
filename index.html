@@ -3,255 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="assets/fire.png" title="fire icons" type="image/png">
     <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h6>THIS IS HEADER</h6>
-    </header>
 
-
-    <!-- !heading -->
-    <h1>tes</h1>
-    <h2>tes</h2> 
-    <h3>tes</h3>
-    <h4>tes</h4>
-    <br> <!-- Adding a line break -->
-
-    <!-- !paragraph -->
-    <p>This is a simple HTML document.</p>
-
-    <!-- !link -->
-    <a href="https://www.google.com" target="_blank" title="this will take you to google">
-        google
-    </a>
-    <br> 
-    <br>
-    <a href="page2.html" target="_blank" title="this will take you to page 2">
-        page 2
-    </a>
-
-    <!-- !images -->
-    <a href="https://myheroacademia.fandom.com/wiki/Katsuki_Bakugo" 
-    target="_blank" title="this will take you to bakugo's my hero academia wiki page">
-    <img src="assets/pic.jpg" alt="deku pic" width="500" height="600" title="this is kacchan">
-    </a>
-
-    <!-- !audio -->
-    <audio controls  muted loop src="assets/musicc.mp3">
-        <source src="assets/musicc.mp3" type="audio/mpeg">
-        Your browser does not support the audio element.
-    </audio>
-
-    <!-- !video -->
-    <video controls muted loop>
-        <source src="/assets/akitoVideo.mp4" >
-        <source src="/assets/akitoVideo.webM">
-        Your browser does not support the video element.
-    </video>
-
-    <!-- !text formatting -->
-    <p>This is normal text</p>
-    <p>This is <b>bold</b> text</p>
-    <p>This is <i>italic</i> text</p>
-    <p>This is <u>underlined</u> text </p>
-    <p>This is <del>deleted</del> text </p>
-    <p>This is <small>small</small> text </p>
-    <p>This is <big>big</big> text </p>
-    <p>This is <sub>subscript</sub> text </p>
-    <p>This is <sup>superscript</sup> text </p>
-    
-    <!-- !List -->
-    <h3>Unordered List</h3>
-    <ul>
-        <li>Item 1</li>
-        <li>Item 2</li>
-        <li>Item 3
-            <ul>
-                <li>Subitem 1</li>
-                <li>Subitem 2</li>
-            </ul>
-        </li>
-    </ul>
-    <br>
-
-
-    <h3>Ordered List</h3>
-    <ol type="I">
-        <li>Item 1</li>
-        <li>Item 2</li>
-        <ol>
-            <li>Subitem 1</li>
-            <li>Subitem 2</li>
-        </ol>
-        <li>Item 3
-            <ul>
-                <li>Subitem 1</li>
-                <li>Subitem 2</li>
-            </ul>
-        </li>
-    </ol>
-    
-    <h3>Description List</h3>
-    <dl>
-        <dt>Term 1</dt>
-        <dd>Description for Term 1</dd>
-        <br>
-        <dt>Term 2</dt>
-        <dd>Description for Term 2
-            <ol>
-                <li>Subitem 1</li>
-                <li>Subitem 2</li>
-            </ol>
-        </dd>
-    </dl>
-
-    <!-- !Table -->
-    <table bgcolor="black">
-        <tr bgcolor="lightblue" >
-            <th width="200"> Header 1 </th>
-            <th width="200"> Header 2 </th>
-            <th width="200"> Header 3 haha </th>
-        </tr>
-        <tr bgcolor="lightgrey" align="center">
-            <td>Data 1</td>
-            <td>Data 2</td>
-            <td>Data 3</td>
-        </tr>
-    </table>
-
-    <!-- !Color -->
-    <div style="background-color: red; width: 1000px; height: 1000px;">
-        <h6 style="color: rgb(0, 98, 255,0.5); font-size:70px;" >HIIIII</h6>
-        <p style="background-color: aqua; color: rgb(0, 98, 255);">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi 
-            eos corrupti quia rerum laboriosam quidem at a, ducimus amet labore nihil, 
-            mollitia, recusandae accusamus aspernatur obcaecati quis vitae ut qui!</p>
+    <!-- TOP SECTION -->
+    <div class="top-section">
+        <a href="">Gmail</a>
+        <a href="">Images</a>
+        <img class="top-app-icon" src="icons/appIcon.svg">
+        <img class="top-app-icon profile-pic" src="icons/images.jpeg">
     </div>
 
-    <!-- !Span&Div -->
-     <div>
-        <p>
-        <span style="color: blue;">orem ipsum dolor sit 
-        amet consectetur adipisicing elit.
-        At iste saepe earum necessitatibus </span> 
-        quis magni sint incidunt cum nihil.
-        Praesentium ratione natus adipisci sit 
-        dolorum sequi. Cupiditate, harum. Totam, veritatis!
-        </p>
-     </div>
+    <!-- MIDDLE SECTION -->
+    <div class="middle-section">
+        <div class="logo-section">
+            <img class="google-logo" src="icons/googleLogo.png" alt="">
+            <img src="icons/shareIcon.svg" alt="">
+        </div>
 
-     <!-- !iframe -->
-    <iframe src="page2.html" frameborder="0" width="200" height="400"></iframe>
-    <iframe src="https://www.bing.com" frameborder="0"></iframe>
-
-    <!-- !Button&Script -->
-    <br>
-    <button style="color: brown; background-color: lightblue; border-radius:0.6vh; border: 0.3vh solid black;" onclick="changeWord()" id="0">HI</button>
-    <script>
-        function changeWord() {
-            document.getElementById("0");
-            if (document.getElementById("0").innerHTML === "HI") {
-                document.getElementById("0").innerHTML = "BYE";
-            } else {
-                document.getElementById("0").innerHTML = "HI";
-            }       
-        }
-    </script>
-
-        <!-- !Form -->
-        <form>
-            <div>
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" placeholder="Your full name" required>
+        <div class="search-box-section">
+            <div class="search-box-section-left">
+                <img src="icons/add.svg" alt="">
+                <input type="text" class="search-box">
             </div>
-
-            <br>
-
-            <div>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" placeholder="you@example.com" required>
-            </div>
-
-            <br>
-
-            <div>
-                <label for="password">Password:</label>
-                <input type="password" id="password" name="password" placeholder="Enter a strong password" required>
-            </div>
-
-            <br>
-            <div>
-                <label for="number">Number:</label>
-                <input type="number" id="number" name="number" placeholder="e.g. 12345">
-            </div>
-
-            <br>
-
-            <div>
-                <label for="date">Date:</label>
-                <input type="date" id="date" name="date" placeholder="YYYY-MM-DD">
-            </div>
-
-            <br>
-
-            <div>
-                <label for="checkbox">Agree:</label>
-                <input type="checkbox" id="checkbox" name="checkbox">
-            </div>
-
-            <br>
             
-            <div>
-                <label for="option">Options:</label>
-
-                <label for="radio">Option 1</label>
-                <input type="radio" id="radio" name="option" value="1">
-
-                <label for="radio2">Option 2</label>
-                <input type="radio" id="radio2" name="option" value="2">
-
+            <div class="search-box-section-right">
+                <img src="icons/micIcon.svg" alt="">
+                <img src="icons/lens.svg" alt="">
+                 <a class="ai-search-mode-section">
+                    <img src="icons/searchIcon.svg" alt="">
+                    <span>AI Search Mode</span>
+                </a>
             </div>
 
-            <br>
+           
+        </div>
 
-            <div>
-                <label for="textarea">Message:</label>
-                <textarea id="textarea" name="message" placeholder="Write your message here..." style="width: 300px; height: 150px; resize: none;"></textarea>
-            </div>
+        
+        <div class="search-shortcut-section">
+            <a class="search-shortcut" href="">Google Search</a>
+            <a class="search-shortcut" href=""> I'm Feeling Lucky</a>
+        </div>
 
-            <br>
+        <div>
+            <span>Google offered in:</span>
+            <a href="">Indonesia</a>
+            <a href="">Basa Bali</a>
+        </div>
+        
+    </div>
 
-            <div>
-                <label for="select">Choose:</label>
-                <select id="select" name="select">
-                    <option value="" disabled selected>Choose an option</option>
-                    <option>Option A</option>
-                    <option>Option B</option>
-                </select>
-            </div>
+    <!-- BOTTOM SECTION -->
+    <div class="upper-bottom-section">Indonesia</div>
 
-            <br>
+    <div class="below-bottom-section">
+        <div class="bottom-left-section">
+            <a>About</a>
+            <a>Advertising</a>
+            <a>Business</a>
+            <a>How Search works</a>
+        </div>
 
-            <div style="display: flex; gap: 10px;">
-                <div>
-                    <input type="reset" value="Reset">
-                </div>
-                <div>
-                    <input type="submit" value="Submit">
-                </div>
-            </div>
-
-    </form>
-
-    <footer>
-        <h6>THIS IS FOOTER</h6>
-        &copy; 2024 Konar. All rights reserved.
-    </footer>
-
+        <div class="bottom-right-section">
+            <a>Privacy</a>
+            <a>Terms</a>
+            <a>Settings</a>
+        </div>
+    </div>
 
 </body>
 </html>
-
-
