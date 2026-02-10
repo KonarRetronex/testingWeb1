@@ -1,4 +1,11 @@
 
+.pagination a, 
+.pagination a:focus, 
+.pagination a:active {
+    outline: none !important;
+    text-decoration: none !important;
+    -moz-outline-style: none !important; /* Specific for older Firefox versions */
+}
 
 
 .pagination{
