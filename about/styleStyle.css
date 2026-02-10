@@ -151,6 +151,8 @@ img{
     padding: 0px;
     background-color: #333333;
 }   
+
+/* Box */
 .box{
     border: #000000 solid 2px;
     background-color: rgba(128, 255, 0, 0.459);
@@ -164,6 +166,8 @@ img{
     justify-content: center; /*center horizontally */
 }
 
+
+/* Position */
 #po1{
     position: relative;
     top: 20px;
@@ -228,3 +232,5 @@ img{
     align-items: center;   /*center vertically */
     justify-content: center;
 }   
+
+/* BackGROUND PICTURE */

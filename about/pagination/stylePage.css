@@ -1,0 +1,27 @@
+
+
+
+.pagination{
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.pagination a{
+    color: black;
+    text-decoration: none !important;
+    padding: 1rem;
+    font-size: 2rem;
+    display: inline-block;
+    width: 2rem;
+    height: auto;
+}
+
+.pagination a.active{
+    background-color: red;
+    border-radius: 1rem;
+}
+
+.pagination a:hover:not(.active){
+    background-color: aquamarine;
+    border-radius: 1rem;
+}

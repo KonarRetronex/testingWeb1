@@ -101,6 +101,10 @@ input.search-box,
 
 }
 
+.search-shortcut-section a{
+    text-decoration: none;
+}
+
 .search-shortcut {
     display: flex;
     border: #dfe1e5bd 1px solid;

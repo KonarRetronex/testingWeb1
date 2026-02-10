@@ -1,0 +1,74 @@
+body{
+    /* Bacground Image */
+    background-image: url(/assets/wall.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-attachment: fixed; */
+    /* background-size: cover; */
+}
+
+/* Combinator */
+#container{
+    border: 1px solid black;
+}
+
+/* descendent ( ), all below it child grandchild and below*/
+#container p{
+    background-color: aqua;
+}
+
+/* child (>) only effect the child */
+#container > p {
+    background-color: blueviolet;
+}
+
+/* General sibling (~) all the sibling */
+#container ~ p {
+    background-color: chartreuse;
+}
+
+/* adjacent sibling (+) only the closest (after) sibling*/
+#container + p{
+    background-color: crimson;
+}
+
+/* Pseudo-class */
+a:visited{
+    color:darkmagenta;
+}
+
+.pseudo-class, .pseudo-class li:not(:hover){
+    background-color: aqua;
+}
+
+.pseudo-class li:hover{
+    background-color: red;
+}
+
+.pseudo-class li:active{
+    font-size: large;
+}
+
+/* Pseudo-Element */
+.pseudo-element h1::first-letter{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+    font-style: italic;
+    color: blue;
+
+}
+
+.pseudo-element::first-line{
+    font-style: italic;
+    font-weight: 100;
+}
+
+.pseudo-element::selection{
+    background-color: brown;
+    color: crimson;
+}
+
+.pseudo-element li::marker{
+    content: '👾 ';
+}
+
