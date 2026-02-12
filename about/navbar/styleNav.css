@@ -1,0 +1,32 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul{
+    padding: 0;
+    margin: 0;
+    padding-left: 1rem;
+    background-color: hsl(60, 56%, 91%);
+}
+
+h1{
+    text-align: center;
+}
+
+.navbar li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+.navbar a{
+    display: block;
+    padding: 0.7rem;
+    text-align: center;
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    background-color: hsl(60, 56%, 100%);
+}
